@@ -20,9 +20,9 @@ ResNetLike: 1 свёрточный слой + 2 residual блока, adaptive av
 - Сравните точность на train и test множествах
 ```
 Точность на train множестве:
-FCNet      train: 0.9900   test: 0.9842
-SimpleCNN  train: 0.9933   test: 0.9911
-ResNetLike train: 0.9972   test: 0.9903
+FCNet      train acc: 0.9900   test acc: 0.9842
+SimpleCNN  train acc: 0.9933   test acc: 0.9911
+ResNetLike train acc: 0.9972   test acc: 0.9903
 ```
 
 - Измерьте время обучения и инференса
@@ -72,15 +72,9 @@ loss: CrossEntropyLoss
 
 - Сравните точность и время обучения
 ```
-Время обучения (сек):
-DeepFCNet:              718.84
-ResNetCIFAR:            1169.86
-ResNetCIFARRegularized: 1294.81
-
-Точность:
-DeepFCNet:              Train acc: 0.4353 Test acc: 0.4781
-ResNetCIFAR:            Train acc: 0.9105 Test acc: 0.8273
-ResNetCIFARRegularized: Train acc: 0.7711 Test acc: 0.7934
+DeepFCNet              train acc: 0.4353 test acc: 0.4781 time (s): 1078.26
+ResNetCIFAR            train acc: 0.9105 test acc: 0.8273 time (s): 1754.79
+ResNetCIFARRegularized train acc: 0.7711 test acc: 0.7934 time (s): 129482
 ```
 - Проанализируйте переобучение\
 ResNetCIFAR демонстрирует явные признаки переобучения: высокая точность и низкие потери на обучении, но заметно худшие результаты на тесте, особенно по мере увеличения эпох.\
@@ -119,10 +113,10 @@ CNN_Combo: 19274
 ```
 - Сравните точность и время обучения
 ```
-CNN_3x3:    train acc: 0.5342   test acc: 0.5345   time (s): 876.87
-CNN_5x5:    train acc: 0.5652   test acc: 0.5513   time (s): 877.32
-CNN_7x7:    train acc: 0.5360   test acc: 0.5345   time (s): 882.96
-CNN_Combo:  train acc: 0.4545   test acc: 0.4387   time (s): 870.72
+CNN_3x3    train acc: 0.5342   test acc: 0.5345   time (s): 876.87
+CNN_5x5    train acc: 0.5652   test acc: 0.5513   time (s): 877.32
+CNN_7x7    train acc: 0.5360   test acc: 0.5345   time (s): 882.96
+CNN_Combo  train acc: 0.4545   test acc: 0.4387   time (s): 870.72
 ```
 - Проанализируйте рецептивные поля\
 Размер рецептивного поля напрямую зависит от размера фильтра.\
@@ -154,17 +148,10 @@ CNN_Combo:  train acc: 0.4545   test acc: 0.4387   time (s): 870.72
 Для каждого варианта:
 - Сравните точность и время обучения
 ```
-Время обучения (сек):
-ShallowCNN: 806.29
-MediumCNN: 3333.88
-DeepCNN: 6332.97
-ResidualCNN: 11413.16
-
-Сравнение точности:
-ShallowCNN:     train acc: 0.4709   test acc: 0.4608
-MediumCNN:      train acc: 0.6180   test acc: 0.6093
-DeepCNN:        train acc: 0.6776   test acc: 0.6872
-ResidualCNN:    train acc: 0.8504   test acc: 0.7883
+ShallowCNN     train acc: 0.4709   test acc: 0.4608   time (s): 1209.43
+MediumCNN      train acc: 0.6180   test acc: 0.6093   time (s): 5000.82
+DeepCNN        train acc: 0.6776   test acc: 0.6872   time (s): 9499.45
+ResidualCNN    train acc: 0.8504   test acc: 0.7883   time (s): 17119.74
 ```
 - Проанализируйте vanishing/exploding gradients\
 Затухание градиентов присутствует: чем глубже слой, тем меньше средний градиент, особенно в ResidualCNN, но residual-связи эффективно предотвращают полное исчезновение градиентов. В ShallowCNN затухание выражено сильнее между сверточными слоями, но не критично. Это может замедлять обучение начальных слоёв, особенно в очень глубоких сетях.\
