@@ -1,6 +1,0 @@
-INFO:root:Время обучения SimpleCNN: 65.64 сек
-INFO:root:Время обучения CNNWithCustomLayers: 90.30 сек
-INFO:root:Время обучения SimpleCNN: 68.77 сек
-INFO:root:Время обучения CNNWithCustomLayers: 96.28 сек
-INFO:root:Время обучения SimpleCNN: 131.26 сек
-INFO:root:Время обучения CNNWithCustomLayers: 200.80 сек
