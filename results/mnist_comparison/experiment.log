@@ -1,0 +1,112 @@
+INFO:root:=== FCNet ===
+INFO:root:Параметров: 567434
+INFO:root:Время обучения: 78.66 сек
+INFO:root:Test loss: 0.1436, Test acc: 0.9665
+INFO:root:Время инференса: 0.0010 сек
+INFO:root:=== SimpleCNN ===
+INFO:root:Параметров: 241546
+INFO:root:Время обучения: 279.71 сек
+INFO:root:Test loss: 0.0242, Test acc: 0.9925
+INFO:root:Время инференса: 0.0180 сек
+INFO:root:=== ResNetLike ===
+INFO:root:Параметров: 290058
+INFO:root:Время обучения: 582.05 сек
+INFO:root:Test loss: 0.0632, Test acc: 0.9804
+INFO:root:Время инференса: 0.0280 сек
+INFO:root:=== FCNet ===
+INFO:root:Параметров: 567434
+INFO:root:Время обучения: 80.32 сек
+INFO:root:Test loss: 0.0715, Test acc: 0.9825
+INFO:root:Время инференса: 0.0010 сек
+INFO:root:=== SimpleCNN ===
+INFO:root:Параметров: 241546
+INFO:root:Время обучения: 277.26 сек
+INFO:root:Test loss: 0.0288, Test acc: 0.9914
+INFO:root:Время инференса: 0.0194 сек
+INFO:root:=== ResNetLike ===
+INFO:root:Параметров: 290058
+INFO:root:Время обучения: 587.05 сек
+INFO:root:Test loss: 0.0387, Test acc: 0.9892
+INFO:root:Время инференса: 0.0280 сек
+INFO:root:=== FCNet ===
+INFO:root:Параметров: 567434
+INFO:root:Время обучения: 81.64 сек
+INFO:root:Train acc: 0.9954
+INFO:root:Test loss: 0.0838, Test acc: 0.9806
+INFO:root:Время инференса: 0.0010 сек
+INFO:root:=== SimpleCNN ===
+INFO:root:Параметров: 241546
+INFO:root:Время обучения: 280.84 сек
+INFO:root:Train acc: 0.9968
+INFO:root:Test loss: 0.0357, Test acc: 0.9911
+INFO:root:Время инференса: 0.0200 сек
+INFO:root:=== ResNetLike ===
+INFO:root:Параметров: 290058
+INFO:root:Время обучения: 591.11 сек
+INFO:root:Train acc: 0.9983
+INFO:root:Test loss: 0.0311, Test acc: 0.9905
+INFO:root:Время инференса: 0.0300 сек
+INFO:root:=== FCNet ===
+INFO:root:Параметров: 567434
+INFO:root:Время обучения: 80.84 сек
+INFO:root:Train acc: 0.9946
+INFO:root:Test loss: 0.0754, Test acc: 0.9804
+INFO:root:Время инференса: 0.0010 сек
+INFO:root:=== SimpleCNN ===
+INFO:root:Параметров: 241546
+INFO:root:Время обучения: 280.19 сек
+INFO:root:Train acc: 0.9961
+INFO:root:Test loss: 0.0332, Test acc: 0.9896
+INFO:root:Время инференса: 0.0180 сек
+INFO:root:=== ResNetLike ===
+INFO:root:Параметров: 290058
+INFO:root:Время обучения: 590.37 сек
+INFO:root:Train acc: 0.9979
+INFO:root:Test loss: 0.0317, Test acc: 0.9910
+INFO:root:Время инференса: 0.0300 сек
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:Время обучения: 2064.65 сек
+INFO:root:Train acc: 0.4546
+INFO:root:Test loss: 1.4803, Test acc: 0.4796
+INFO:root:Время инференса: 0.0100 сек
+INFO:root:=== ResNetCIFAR ===
+INFO:root:Параметров: 602154
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:Время обучения: 718.84 сек
+INFO:root:Train acc: 0.4353
+INFO:root:Test loss: 1.5057, Test acc: 0.4781
+INFO:root:Время инференса: 0.0100 сек
+INFO:root:=== ResNetCIFAR ===
+INFO:root:Параметров: 602154
+INFO:root:Время обучения: 1169.86 сек
+INFO:root:Train acc: 0.9105
+INFO:root:Test loss: 0.5428, Test acc: 0.8273
+INFO:root:Время инференса: 0.0500 сек
+INFO:root:=== ResNetCIFARRegularized ===
+INFO:root:Параметров: 602154
+INFO:root:Время обучения: 1294.81 сек
+INFO:root:Train acc: 0.7711
+INFO:root:Test loss: 0.5930, Test acc: 0.7934
+INFO:root:Время инференса: 0.0500 сек
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
+INFO:root:Время обучения: 647.84 сек
+INFO:root:Train acc: 0.4365
+INFO:root:Test loss: 1.5356, Test acc: 0.4712
+INFO:root:Время инференса: 0.0120 сек
+INFO:root:=== ResNetCIFAR ===
+INFO:root:Параметров: 602154
+INFO:root:=== DeepFCNet ===
+INFO:root:Параметров: 9050378
